@@ -4,11 +4,13 @@ const bcrypt = require("bcrypt");
 const admin = require("firebase-admin");
 const jwt = require("jsonwebtoken");
 
-var serviceAccount = require("../../glug-chats-firebase-adminsdk-i7krj-e2a7a0d87e.json");
+var admin = require("firebase-admin");
+
+var serviceAccount = require("../../glugchats-firebase-adminsdk-mimva-9dd786e570.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://glug-chats.firebaseio.com",
+  databaseURL: "https://glugchats.firebaseio.com"
 });
 
 const router = express.Router();

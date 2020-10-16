@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "426853573285",
-    "firebase_url": "https://glug-chats.firebaseio.com",
-    "project_id": "glug-chats",
-    "storage_bucket": "glug-chats.appspot.com"
+    "project_number": "907938896136",
+    "firebase_url": "https://glugchats.firebaseio.com",
+    "project_id": "glugchats",
+    "storage_bucket": "glugchats.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:426853573285:android:3d6ae8b74d64379a56234c",
+        "mobilesdk_app_id": "1:907938896136:android:56d83cf736c59115fa34bd",
         "android_client_info": {
           "package_name": "com.example.GlugChat"
         }
       },
       "oauth_client": [
         {
-          "client_id": "426853573285-okn863t9gpvq5o5os7nam9gn7b7t4b9u.apps.googleusercontent.com",
+          "client_id": "907938896136-louk6l46gjie5nu2udiku4vto6nlptuq.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBm8UWAVzMe9F12t_3l9O3xmtxDJqtkR44"
+          "current_key": "AIzaSyDnTAx51fn5lTjZsqvdWx9yLICgIIOAkOM"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "426853573285-okn863t9gpvq5o5os7nam9gn7b7t4b9u.apps.googleusercontent.com",
+              "client_id": "907938896136-louk6l46gjie5nu2udiku4vto6nlptuq.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
