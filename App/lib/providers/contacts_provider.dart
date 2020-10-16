@@ -5,6 +5,7 @@ class ContactProvider extends ChangeNotifier {
   List<ContactModel> contacts = [];
 
   addContacts(jsonResponse) {
+    contacts = [];
     for (int i = 0; i < jsonResponse.length; ++i) {
       contacts.add(ContactModel(
           name: jsonResponse[i]["friendName"],
@@ -21,8 +22,6 @@ class ContactProvider extends ChangeNotifier {
     notifyListeners();
   }
   
-   void clearAll() {
-    contacts.clear();
-  }
+  
   
 }

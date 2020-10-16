@@ -137,7 +137,7 @@ class _ChatContactsState extends State<ChatContacts> {
           onTap: () async {
             final pref = await SharedPreferences.getInstance();
             pref.setBool("isSignedIn", false);
-            _contactProvider.clearAll();
+ 
             Navigator.push(
                 context, MaterialPageRoute(builder: (context) => Wrapper()));
           },
