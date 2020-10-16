@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">426853573285-okn863t9gpvq5o5os7nam9gn7b7t4b9u.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://glug-chats.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">426853573285</string>
+    <string name="google_api_key" translatable="false">AIzaSyBm8UWAVzMe9F12t_3l9O3xmtxDJqtkR44</string>
+    <string name="google_app_id" translatable="false">1:426853573285:android:3d6ae8b74d64379a56234c</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBm8UWAVzMe9F12t_3l9O3xmtxDJqtkR44</string>
+    <string name="google_storage_bucket" translatable="false">glug-chats.appspot.com</string>
+    <string name="project_id" translatable="false">glug-chats</string>
+</resources>
