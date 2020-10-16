@@ -20,4 +20,9 @@ class ContactProvider extends ChangeNotifier {
         chatRoomId: jsonResponse["chatRoomID"]));
     notifyListeners();
   }
+  
+   void clearAll() {
+    contacts.clear();
+  }
+  
 }
